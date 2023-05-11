@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "NLP Research",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Site Reliability",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Software Development",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "C++ Programming",
       icon: creator,
     },
   ];
@@ -116,55 +116,48 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Data Structures and Algorithms Teaching Assistant",
+      company_name: "University of Michigan EECS Department",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jan 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Help professors teach 900+ students per semester algorithm analysis, O-notation, fundamental data structures (stacks, queues, deques and hash tables), and algorithm techniques (dynamic programming, greedy, recursive, divide-and-conquer, branch-and-bound, and backtracking).",
+        "Lead a weekly lab section, ideate and write exam questions, answer conceptual questions on Piazza.",
+        "Hold weekly office hours for debugging and optimizing projects containing more than 1000 lines of code."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Software Engineer Intern",
+      company_name: "T. Rowe Price",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2022 - Sept 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built Grafana dashboards with proper metrics using Prometheus, Telegraf, Splunk, and Cloudwatch for the Enterprise HashiCorp Vault application.",
+        "Implemented an alerting system with Alertmanager to proactively be notified of Vault incidents.",
+        "Integrated Sourcegraph code intelligence into the Gitlab UI using Docker.",
+        "Collected firmwide VDI information using Prometheus and broke it out by geolocation to better understand update and consumption patterns."
+
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Computer Organization Grader",
+      company_name: "University of Michigan EECS Department",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "September 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Grade assignments and exams on computer organization topics, such as caches, virtual memory, multi- and single-cycle datapaths, pipelining, and information set architecture."
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Incoming Software Developement Engineer Intern",
+      company_name: "Wayfair",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "June 2023 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
   ];
