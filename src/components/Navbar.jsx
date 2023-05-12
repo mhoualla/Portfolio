@@ -5,6 +5,8 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
+import cvPdf from "../assets/cv.pdf";
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -35,7 +37,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={nav.title === "CV" ? cvPdf : `#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
         </ul>
@@ -55,7 +57,7 @@ const Navbar = () => {
                 setActive(nav.title);
               }}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={nav.title === "CV" ? cvPdf : `#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
         </ul>
