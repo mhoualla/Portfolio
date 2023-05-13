@@ -6,6 +6,8 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 
+import thesis from "../assets/thesis.pdf";
+
 const FeedbackCard = ({
   index,
   testimonial,
@@ -53,7 +55,7 @@ const Feedbacks = () => {
          <h2 className={styles.sectionHeadText}>Research.</h2>
          <p className={styles.sectionSubTextn}>During my undergraduate career, I committed myself to four years of research as a researcher at the Ford School of Public Policy. My Honors Thesis, completed last semester, received the highest possible ranking at top 2%.</p>
          <br />
-         <a href="/src/assets/thesis.pdf"><u><strong>LinkedIn: A New Frontier For Gender Bias in Hiring Practices</strong></u></a>
+         <a href= {thesis}><u><strong>LinkedIn: A New Frontier For Gender Bias in Hiring Practices</strong></u></a>
         </motion.div>
       </div>
       

@@ -7,6 +7,10 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import email from "../assets/email.png";
+import linkedin from "../assets/linkedin.png";
+import github from "../assets/github.png";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -38,9 +42,9 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contacts.</h3>
-        <a href="https://www.linkedin.com/in/marwahoualla/"><img src="../src/assets/linkedin.png" alt="Linkedin Logo" /></a> <br />
-        <a href="mailto:marwa.houalla@gmail.com"><img src="../src/assets/email.png" alt = "Gmail Logo" /></a><br />
-        <a href="https://github.com/mhoualla"><img src="../src/assets/github.png" alt = "Github Logo" /></a><br />
+        <a href="https://www.linkedin.com/in/marwahoualla/"><img src= {linkedin} alt="Linkedin Logo" /></a> <br />
+        <a href="mailto:marwa.houalla@gmail.com"><img src= {email} alt = "Gmail Logo" /></a><br />
+        <a href="https://github.com/mhoualla"><img src= {github} alt = "Github Logo" /></a><br />
       </motion.div>
 
       <motion.div
